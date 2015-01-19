@@ -81,7 +81,7 @@ public class MarsRoverTest {
 				.append(LINE_SEPARATOR).append("   |  |")
 				.append(LINE_SEPARATOR).append("   +--+")
 				.append(LINE_SEPARATOR).toString();
-
+System.out.println(expectedPath);
 		assertThat(marsRover.path(), equalTo(expectedPath));
 	}
 
